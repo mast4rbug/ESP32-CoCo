@@ -41,6 +41,7 @@ All notable changes to this documentation set are logged here (not to be confuse
 - **utilities.md**: added a Notes column to the Joystick configuration table, flagging that Mike Horgan's Joystick Config Editor only works in Chromium-based browsers (Chrome, Edge, Brave, etc.) — not Firefox or Safari.
 - **New page**: `03-compatible-hardware/cases-and-enclosures.md`, listing that Cedric hasn't published an official case STL yet, plus a community-made case (ESP32COCO Case with Joystick) that encloses both the board and the joystick expansion module. Cross-referenced from the README contents list and hardware-specs.md's Physical section. URL stripped of tracking params (fbclid, from=search) before adding.
 - **README.md**: added `esp32-coco-header.jpg` as a banner image at the top, and `esp32-coco-clean.jpg` (front view showing SD/JOYL/JOYR/KEYB ports) above the "What is the ESP32-COCO?" section. A third supplied image (`esp32-coco-top.jpg`) wasn't used — available in `assets/images/` if needed elsewhere later.
+- **README.md**: removed the "Status: scaffold" callout (no longer accurate now that most pages have real content) and trimmed the redundant "no separate/explicit CoCo 1 or CoCo 2 mode" clause from the intro paragraph.
 
 ## 2026-07-17 (12)
 

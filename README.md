@@ -8,8 +8,6 @@ Community documentation for the **ESP32-COCO**, a bare-metal hardware emulator f
 
 This repository is a community-maintained knowledge base. The device is under active development and had no central docs before this repo. Everything here is sourced from the CoCo community (Facebook group, demo videos, and hands-on testing) and is a work in progress. See [CONTRIBUTING.md](CONTRIBUTING.md) if you want to help fill it in.
 
-> **Status: scaffold.** Most pages below are outlines with `TODO` markers, not finished docs. Sections are structured so content can be dropped in incrementally.
-
 ## Contents
 
 ### [01 · Getting Started](01-getting-started/)
@@ -54,6 +52,6 @@ This repository is a community-maintained knowledge base. The device is under ac
 
 ![ESP32-COCO enclosure, front view showing SD card slot and joystick/keyboard USB ports](assets/images/esp32-coco-clean.jpg)
 
-The ESP32-COCO is a low-cost hardware emulator that reproduces a TRS-80 Color Computer 3 on ESP32-S3 hardware — backward compatible with CoCo 1 and CoCo 2 software, with no separate/explicit CoCo 1 or CoCo 2 mode — aiming to run original CoCo software and games without original Tandy hardware. It is an actively developed, community-driven project — details in this repo will be updated as the device and firmware evolve.
+The ESP32-COCO is a low-cost hardware emulator that reproduces a TRS-80 Color Computer 3 on ESP32-S3 hardware — backward compatible with CoCo 1 and CoCo 2 software — aiming to run original CoCo software and games without original Tandy hardware. It is an actively developed, community-driven project — details in this repo will be updated as the device and firmware evolve.
 
 *Last updated: 2026-07-08*
