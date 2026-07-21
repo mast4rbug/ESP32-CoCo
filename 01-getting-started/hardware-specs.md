@@ -56,6 +56,7 @@
 - Ships in a **3D-printed case** or as a naked board
 - Board dimensions: **4 × 3 inches**.
 - Box contents: **the device only** — see [setup-and-first-boot.md](setup-and-first-boot.md). No SD card, cables, or peripherals included.
+- See [cases-and-enclosures.md](../03-compatible-hardware/cases-and-enclosures.md) for community-made case options.
 
 ## Revisions
 

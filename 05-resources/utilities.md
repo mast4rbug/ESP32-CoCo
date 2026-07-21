@@ -4,9 +4,9 @@ Tools for building, converting, and managing media files for ESP32-COCO.
 
 ## Joystick configuration
 
-| Tool | Purpose | Link |
-|---|---|---|
-| ESP32-Coco Joystick Config Editor (Mike Horgan) | Configure/edit joystick button and axis mappings | https://gigajunky.github.io/coco/cespcfged.html |
+| Tool | Purpose | Link | Notes |
+|---|---|---|---|
+| ESP32-Coco Joystick Config Editor (Mike Horgan) | Configure/edit joystick button and axis mappings | https://gigajunky.github.io/coco/cespcfged.html | **Chromium-based browsers only** (Chrome, Edge, Brave, etc.) — doesn't work in Firefox or Safari. |
 
 See also [joystick-menu.md](../02-menus-and-shortcuts/joystick-menu.md) for the axis-configuration gotcha, and [joysticks-and-controllers.md](../03-compatible-hardware/joysticks-and-controllers.md) for the known-working controller list.
 

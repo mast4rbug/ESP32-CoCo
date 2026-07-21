@@ -1,5 +1,7 @@
 # ESP32-COCO Documentation
 
+![ESP32-COCO](assets/images/esp32-coco-header.jpg)
+
 Community documentation for the **ESP32-COCO**, a bare-metal hardware emulator for the Tandy/Radio Shack TRS-80 Color Computer 1, 2, and 3, built on ESP32-S3 hardware by Cedric Beaudoin.
 
 **Official home:** https://github.com/mast4rbug/ESP32-CoCo — also the future home for firmware update files and, potentially, source code.
@@ -30,6 +32,7 @@ This repository is a community-maintained knowledge base. The device is under ac
 - [Keyboards](03-compatible-hardware/keyboards.md) — tested/supported keyboards
 - [Joysticks & Controllers](03-compatible-hardware/joysticks-and-controllers.md) — analog/digital joystick support
 - [Storage Devices](03-compatible-hardware/storage-devices.md) — SD cards, USB storage
+- [Cases & Enclosures](03-compatible-hardware/cases-and-enclosures.md) — 3D-printed case options
 
 ### [04 · Management](04-management/)
 - [Troubleshooting](04-management/troubleshooting.md) — common issues and fixes
@@ -48,6 +51,8 @@ This repository is a community-maintained knowledge base. The device is under ac
 - [Contributing](CONTRIBUTING.md)
 
 ## What is the ESP32-COCO?
+
+![ESP32-COCO enclosure, front view showing SD card slot and joystick/keyboard USB ports](assets/images/esp32-coco-clean.jpg)
 
 The ESP32-COCO is a low-cost hardware emulator that reproduces a TRS-80 Color Computer 3 on ESP32-S3 hardware — backward compatible with CoCo 1 and CoCo 2 software, with no separate/explicit CoCo 1 or CoCo 2 mode — aiming to run original CoCo software and games without original Tandy hardware. It is an actively developed, community-driven project — details in this repo will be updated as the device and firmware evolve.
 
