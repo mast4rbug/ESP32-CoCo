@@ -1,17 +1,14 @@
 # Keyboards
 
-> TODO: verify remaining details. Core USB limitation confirmed below.
-
 ## Connector / interface
 
-- **USB only — and specifically USB 1.1 (USB1), not USB 2.0/3.0.** This significantly narrows the pool of compatible keyboards. Modern USB 2.0/3.0-only keyboards may not be recognized.
-- TODO: confirm exact USB host chip/limitation causing this (hardware or firmware constraint?)
-- TODO: confirm connector type (USB-A? micro/USB-C with a USB1-speed host controller?)
+- **USB Low Speed (1.5 Mbps) only** — the actual constraint is narrower than "USB 1.1" alone suggests. ESP32-COCO uses a USB "Soft Host" library that can only handle **Low Speed (1.5 Mbps)** devices, not **Full Speed (12 Mbps)** — most USB 1.1 peripherals — or **High Speed (480 Mbps)**, i.e. USB 2.0+. This is why compatibility has been hit-or-miss even among older USB 1.1 keyboards: being "USB 1.1" doesn't guarantee it negotiates at Low Speed. (Source: Cedric, via discussion with Rocco Corsi on the CoCo Discord's #esp32-coco channel.)
+- **Connector type: classic USB-A ports.**
 
 ## Practical buying guidance
 
-- **Old USB1-era keyboards are the safe bet.** Keyboards from the early USB transition period (roughly late 1990s–early 2000s) are far more likely to negotiate at USB1 (full-speed/low-speed) rather than requiring USB2+.
-- It's not a hard rule, though — compatibility has been hit-or-miss across both old and modern keyboards in testing so far (see tables below). When in doubt, test before relying on a keyboard.
+- **Old USB1-era keyboards are the safer bet, but it's not a guarantee** — compatibility has been hit-or-miss across both old and modern keyboards in testing so far (see tables below), since the real requirement is Low Speed negotiation specifically, not just "USB 1.1." When in doubt, test before relying on a keyboard.
+- **Workaround for Full Speed (12 Mbps) devices:** a USB isolator adapter built around the **ADuM4160** chip, specifically one with a **1.5 Mbps / 12 Mbps speed-lock switch**, can force a Full Speed device down to Low Speed and make some otherwise-incompatible keyboards/joysticks work. It won't help High Speed (480 Mbps, USB 2.0+) devices. Factor the adapter's cost into the decision — it may be cheaper to just try a different keyboard. Anecdotally (Rocco Corsi, same Discord discussion): of 5 keyboards tested, 3 worked natively, 1 worked only with the ADUM4160 switch set to 1.5 Mbps, and 1 didn't work even with the adapter.
 
 ## Tested & known-working
 
@@ -34,10 +31,6 @@
 | Case Logic Mini Keyboard (KD-300) | Connects and is recognized, but produces random characters — unusable. |
 | Cherry Stream Keyboard TKL — Model JK-85TKL | Not recognized. |
 | Keychron K14 Wireless | Not recognized. Wireless (dongle/Bluetooth) — failure may be specific to that connection method rather than the keyboard's USB HID compatibility in general. |
-
-## Original CoCo/Tandy keyboards
-
-- TODO: can an original CoCo 2/3 keyboard be wired directly to the device? If so, pinout/adapter needed.
 
 ## Key mapping
 

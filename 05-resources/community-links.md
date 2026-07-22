@@ -9,6 +9,7 @@ Where to find help, updates, and discussion about ESP32-COCO.
 ## Primary source (as of this writing)
 
 - **ESP32-COCO Official group** (Facebook) — https://www.facebook.com/groups/4262638377332924
+- **#esp32-coco channel** on the CoCo Discord server — active discussion with Cedric (e.g. the USB Low Speed compatibility explanation in [keyboards.md](../03-compatible-hardware/keyboards.md)). No direct channel link available (Discord channel links require server membership) — join via the server invite below, then find the channel.
 
 ## Creator
 
@@ -28,7 +29,7 @@ The Facebook group above is the primary public presence. No confirmed presence y
 ## Broader CoCo community (general, not ESP32-COCO specific)
 
 - **TRS-80 Color Computer (CoCo)** group (Facebook) — https://www.facebook.com/groups/2359462640
-- **CoCo Discord server** — https://discord.com/invite/4J5nHXm (also linked by community creators as a source of ESP32-COCO project info)
+- **CoCo Discord server** — https://discord.com/invite/4J5nHXm (general server; has an ESP32-COCO-specific channel — see Primary source above)
 - Color Computer Archive — https://colorcomputerarchive.com
 - CoCopedia (wiki) — https://www.cocopedia.com
 - Vintage Computer Federation forum — https://forum.vcfed.org

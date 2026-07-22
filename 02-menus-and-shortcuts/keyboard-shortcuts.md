@@ -106,4 +106,4 @@ See [modem-menu.md](modem-menu.md) for the full connection walkthrough.
 
 ## Notes
 
-- Keyboard must be USB1 for any of these to register — see [keyboards.md](../03-compatible-hardware/keyboards.md)
+- Keyboard must negotiate at USB Low Speed (1.5 Mbps) for any of these to register — see [keyboards.md](../03-compatible-hardware/keyboards.md)

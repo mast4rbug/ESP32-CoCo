@@ -9,8 +9,8 @@
 | Cassette loading | Confirmed | Virtual `.WAV` playback from SD card, or a real cassette deck via the CAS/CTL jacks — see [cassette-menu.md](../02-menus-and-shortcuts/cassette-menu.md) |
 | Cartridge / ROM pak emulation | Not supported yet — planned for a future firmware update | — |
 | Hi-Res Interface & CoCo Mouse | Not supported | No current plan to support it, but possible in a future update |
-| Joystick support | Confirmed | 2× USB1 ports, analog + digital; see [joysticks-and-controllers.md](../03-compatible-hardware/joysticks-and-controllers.md) and [joystick-menu.md](../02-menus-and-shortcuts/joystick-menu.md) |
-| Keyboard support | Confirmed | USB1 only; see [keyboards.md](../03-compatible-hardware/keyboards.md) |
+| Joystick support | Confirmed | 2× USB Low Speed ports, analog + digital; see [joysticks-and-controllers.md](../03-compatible-hardware/joysticks-and-controllers.md) and [joystick-menu.md](../02-menus-and-shortcuts/joystick-menu.md) |
+| Keyboard support | Confirmed | USB Low Speed (1.5 Mbps) only; see [keyboards.md](../03-compatible-hardware/keyboards.md) |
 | SD card storage | Confirmed | FAT32 required |
 | On-screen menu / OSD | Confirmed | see [menu-navigation.md](../02-menus-and-shortcuts/menu-navigation.md) |
 | Save states | Confirmed (firmware V1.04+) | F3 save / F4 load, 36 slots (0–9, A–Z) |

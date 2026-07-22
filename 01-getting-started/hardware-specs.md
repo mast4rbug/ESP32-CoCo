@@ -24,8 +24,8 @@
 
 ## Input
 
-- **Keyboard**: USB, and specifically **USB 1.1 (USB1) only** — not USB2/3. See [keyboards.md](../03-compatible-hardware/keyboards.md).
-- **Joysticks**: 2× USB1 ports, supports both analog pads and digital controllers. See [joysticks-and-controllers.md](../03-compatible-hardware/joysticks-and-controllers.md).
+- **Keyboard**: classic **USB-A** connector, and specifically **USB Low Speed (1.5 Mbps) only** — not Full Speed (12 Mbps) or High Speed (480 Mbps, USB2/3). See [keyboards.md](../03-compatible-hardware/keyboards.md) for why, and a possible adapter workaround.
+- **Joysticks**: 2× USB-A Low Speed ports, supports both analog pads and digital controllers. See [joysticks-and-controllers.md](../03-compatible-hardware/joysticks-and-controllers.md).
 
 ## Expansion port
 

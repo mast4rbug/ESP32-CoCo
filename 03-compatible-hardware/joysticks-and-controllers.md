@@ -2,7 +2,7 @@
 
 ## Connector / interface
 
-- **2× USB ports, USB 1.1 (USB1) only** — not USB 2.0/3.0. Same constraint as keyboards (see [keyboards.md](keyboards.md)). This rules out most modern USB gamepads, which is why the community compiles confirmed-working controllers (often older/legacy models, or cheap ones from AliExpress) below.
+- **2× USB ports, USB Low Speed (1.5 Mbps) only** — not Full Speed (12 Mbps, most of USB 1.1) or High Speed (480 Mbps, USB 2.0+). Same constraint as keyboards — see [keyboards.md](keyboards.md#connector--interface) for the technical explanation and a possible ADuM4160-adapter workaround. This rules out most modern USB gamepads, which is why the community compiles confirmed-working controllers (often older/legacy models, or cheap ones from AliExpress) below.
 - Supports both **analog pads and digital controllers**.
 - An **expansion port** on the side of the board accepts an optional joystick module that connects **standard/original CoCo joysticks** directly, bypassing USB entirely — see [hardware-specs.md](../01-getting-started/hardware-specs.md).
 - TODO: is any digital-to-analog mapping done internally for CoCo-style analog joystick emulation, or is it 1:1 passthrough for analog pads?
@@ -36,7 +36,7 @@
 
 ## Number of ports
 
-- 2 USB1 joystick ports (2-player support via USB), plus the expansion port for original CoCo joysticks.
+- 2 USB Low Speed joystick ports (2-player support via USB), plus the expansion port for original CoCo joysticks.
 
 ## See also
 
