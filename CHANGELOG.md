@@ -42,6 +42,9 @@ All notable changes to this documentation set are logged here (not to be confuse
 - **New page**: `03-compatible-hardware/cases-and-enclosures.md`, listing that Cedric hasn't published an official case STL yet, plus a community-made case (ESP32COCO Case with Joystick) that encloses both the board and the joystick expansion module. Cross-referenced from the README contents list and hardware-specs.md's Physical section. URL stripped of tracking params (fbclid, from=search) before adding.
 - **README.md**: added `esp32-coco-header.jpg` as a banner image at the top, and `esp32-coco-clean.jpg` (front view showing SD/JOYL/JOYR/KEYB ports) above the "What is the ESP32-COCO?" section. A third supplied image (`esp32-coco-top.jpg`) wasn't used — available in `assets/images/` if needed elsewhere later.
 - **README.md**: removed the "Status: scaffold" callout (no longer accurate now that most pages have real content) and trimmed the redundant "no separate/explicit CoCo 1 or CoCo 2 mode" clause from the intro paragraph.
+- **keyboards.md**: started a real compatibility list from hands-on testing. Known-working: Logitech K120 (Spanish layout on the tested unit, but functionally fine), Perixx Periboard-517. Known NOT to work: Dell SK-8135, Digital Innovations 4250500, Royal Kludge RK84, Epomaker/Skyloong SK64. Removed the now-redundant "USB keyboards" TODO section.
+- **keyboards.md**: added Case Logic Mini Keyboard (KD-300) to the NOT-to-work table — distinct failure mode from the others (connects and is recognized, but produces random characters).
+- **keyboards.md**: added more tested keyboards. Working: Ziyoulang K61 RGB, Acer OM-130006A/K, HP PN 803181-001 US. Not working: Cherry Stream Keyboard TKL (JK-85TKL), Keychron K14 Wireless (flagged as possibly a wireless-specific failure, not necessarily a general USB HID issue).
 
 ## 2026-07-17 (12)
 
